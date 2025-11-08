@@ -55,9 +55,11 @@ main #cara{
 #cara #sobre{
     flex: 1 1 658px;
     text-align: center;
+    align-self: center;
 }
 #sobre h2{
     font-size: 44px;
+    margin-bottom: 75px;
 }
 #sobre p{
     text-align: justify;
