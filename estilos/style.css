@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&family=Lato:wght@900&family=Outfit&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+p{
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #002454;
+}
+h2{
+    color: #002454;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+body{
+    background-color: #B9E8FF;
+}
+header{
+    display: flex;
+    height: 173px;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 4px 0px 15px 8px #00000040;
+    margin-bottom: 20px;
+}
+header #logo{
+   height: 189px;
+   width: 189px;
+}
+header h1{
+    color: #002454;
+    font-family: "Outfit", sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    font-style: normal;
+}
+main #cara{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+#cara img{
+    width: 40%;
+}
+#cara #sobre{
+    flex: 1 1 658px;
+    text-align: center;
+}
+#sobre h2{
+    font-size: 44px;
+}
+#sobre p{
+    text-align: justify;
+    font-size: 28px;
+}
+#videos h2{
+    margin: 100px;
+    font-size: 64px;
+}
+#videos .video{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.video p{
+    width: 50%;
+    text-align: justify;
+    font-size: 28px;
+}
