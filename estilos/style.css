@@ -19,19 +19,20 @@ h2{
   font-weight: 900;
   font-style: normal;
 }
-
+#logo{
+    margin-top: 24px;
+}
 
 body{
     background-color: #B9E8FF;
 }
 header{
     display: flex;
-    height: 173px;
+    height: 153px;
     flex-flow: row nowrap;
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 4px 0px 15px 8px #00000040;
-    margin-bottom: 20px;
 }
 header #logo{
    height: 189px;
@@ -50,7 +51,7 @@ main #cara{
     gap: 10px;
 }
 #cara img{
-    width: 40%;
+    width: 750px;
 }
 #cara #sobre{
     flex: 1 1 658px;
@@ -79,4 +80,11 @@ main #cara{
     width: 50%;
     text-align: justify;
     font-size: 28px;
+}
+#imgpessoas{
+    mask-image: linear-gradient(to right, black 0%, transparent 100%);
+}
+#oprojeto{
+    margin-right: 20px;
+    margin-left: 20px;
 }
