@@ -72,15 +72,21 @@ main #cara{
 }
 #videos .video{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row-reverse nowrap;
     justify-content: space-around;
     align-items: center;
+    margin: 50px auto;
 }
-.video p{
+
+#videos .video:nth-last-of-type(2n){
+    flex-direction: row;
+}
+#videos .video p{
     width: 50%;
     text-align: justify;
     font-size: 28px;
 }
+
 #imgpessoas{
     mask-image: linear-gradient(to right, black 0%, transparent 100%);
 }
