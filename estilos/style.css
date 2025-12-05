@@ -38,6 +38,7 @@ header{
 header #logo{
    height: 189px;
    width: 189px;
+
 }
 header h1{
     color: #002454;
@@ -98,10 +99,6 @@ main #cara{
 }
 
 @media (max-width:1400px) {
-    header #logo{
-   height: 100%;
-   width: 30%;
-}
     header h1{
     font-size: 7vw;
 }
